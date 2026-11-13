@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#142238">
+  <title>SSJ Bank | Banca virtual</title>
+  <link rel="stylesheet" href="/estilos.css?v=ssj-2">
+  <script src="/configuracion.js"></script>
+  <script src="/interfaz.js?v=ssj-2" defer></script>
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="SSJ Bank, inicio">
+        <span class="brand-mark">
+          <svg class="ssj-emblem" viewBox="0 0 48 48" role="img" aria-label="Emblema SSJ Bank">
+            <path class="emblem-shield" d="M24 3.5 40 9v12.7c0 10.1-6.7 18.1-16 22.8-9.3-4.7-16-12.7-16-22.8V9l16-5.5Z"/>
+            <path class="emblem-line" d="M15.5 17.5c2-3.1 5.3-4.7 9.5-4.7 4.7 0 7.7 2 7.7 5.2 0 7.2-15.5 3.1-15.5 10 0 3.1 3.1 5.2 7.5 5.2 4.2 0 7.5-1.6 9.5-4.7"/>
+            <path class="emblem-accent" d="M12 38.5 36 9.8"/>
+          </svg>
+        </span>
+        <span>SSJ<span class="brand-light"> Bank</span></span>
+      </a>
+      <span class="topbar-caption">Simulador bancario web</span>
+    </header>
+    <main id="main" class="main-content" aria-live="polite"></main>
+    <div id="toast" class="toast" role="status" aria-live="assertive"></div>
+    <footer>SSJ Bank · Proyecto Integrador</footer>
+  </div>
+</body>
+</html>
